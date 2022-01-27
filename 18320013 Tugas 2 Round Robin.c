@@ -4,24 +4,8 @@
 int main()
 {
      /*Kamus*/
-     int t;
-     int WaktuKuantum;
-     int tkerjaP1;
-     int tkerjaP2;
-     int tkerjaP3;
-     int tkerjaP4;
-     int tkerjaP5;
-     int tdatangP1;
-     int tdatangP2;
-     int tdatangP3;
-     int tdatangP4;
-     int tdatangP5;
-     int tungguP1;
-     int tungguP2;
-     int tungguP3;
-     int tungguP4;
-     int tungguP5;
-     int tkerjatotal;
+     int t, WaktuKuantum, tkerjaP1, tkerjaP2, tkerjaP3, tkerjaP4, tkerjaP5, tdatangP1, tdatangP2, tdatangP3, tdatangP4, tdatangP5, tkerjatotal;
+     int tungguP1,tungguP2,tungguP3,tungguP4,tungguP5;
 
      /*Algoritma*/
      t=0;
@@ -36,7 +20,7 @@ int main()
      printf("Pada aplikasi ini, Anda dapat memasukkan 5 proses untuk dikerjakan dan diatur waktunya dengan adil.\n");
      printf("Harap untuk memasukkan nilai Waktu Kuantum, waktu datang masing-masing proses,dan waktu eksekusi masing-masing proses.\n");
      printf("\n");
-     printf("WaktuKuantum : \n");
+     printf("Waktu Kuantum : \n");
      scanf ("%i", &WaktuKuantum);
      printf("Waktu datang Proses P1 : \n");
      scanf ("%i", &tdatangP1);
@@ -59,6 +43,17 @@ int main()
      printf("Waktu eksekusi Proses P5 : \n");
      scanf ("%i", &tkerjaP5);
      tkerjatotal=tkerjaP1+tkerjaP2+tkerjaP3+tkerjaP4+tkerjaP5;
+     while (t<=tkerjatotal) {
+        if (t==tdatangP1) {
+            printf("Waktu =%i", t);
+            printf("tP1 =%i", tkerjaP1)
+        }
+        else if (t=tungguP1) {
+            printf ()
+        }
+        else if (t==t)
+        t+=1;
+     }
 
     return 0;
 }
